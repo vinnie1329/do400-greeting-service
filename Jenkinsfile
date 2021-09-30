@@ -22,7 +22,7 @@ pipeline{
         }
 
         // Add the "Deploy" stage here
-       stage('Deploy) {
+       stage('Deploy') {
            steps {
                sh '''
                   oc project rwmhmi-greetings
